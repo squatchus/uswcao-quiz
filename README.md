@@ -54,5 +54,7 @@ import Foundation
   
 ```Swift
 let bob: Person = Person(name: "Bob Novado", age: 40)
+// or you can omit the type and let Swift to infer it
+let bob = Person(name: "Bob Novado", age: 40)
 ```
 </details>
