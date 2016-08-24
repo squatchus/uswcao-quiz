@@ -58,3 +58,13 @@ let bob: Person = Person(name: "Bob Novado", age: 40)
 let bob = Person(name: "Bob Novado", age: 40)
 ```
 </details>
+
+<details> 
+  <summary>6. How does Objective-C class factory methods imported into Swift?</summary>
+  
+  They imported as convinience initializers, like:
+```Swift
+let color = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
+// instead of [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:0.5]
+```
+</details>
