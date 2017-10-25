@@ -48,9 +48,9 @@ This repository contains set of questions for a self-check based on the book "Us
 ### Initialization
 
 5. Let's say you have an Objective-C class **Person** with initializer listed in a code below. This class imported into Swift code. How do you instantiate this **Person** in Swift?
-```Objective-C
-- (instancetype)initWithName:(NSString *)name age:(NSInteger)age;
-```
+   ```Objective-C
+   - (instancetype)initWithName:(NSString *)name age:(NSInteger)age;
+   ```
    <details> 
    <summary>Answer:</summary>
   
