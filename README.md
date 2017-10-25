@@ -57,7 +57,8 @@ This repository contains set of questions for a self-check based on the book "Us
    ```Swift
    let bob: Person = Person(name: "Bob Novado", age: 40)
    // or you can omit the type and let Swift to infer it
-   let bob = Person(name: "Bob Novado", age: 40)    ```
+   let bob = Person(name: "Bob Novado", age: 40)    
+   ```
    </details>
 6. How does Objective-C class factory methods imported into Swift?
    <details> 
